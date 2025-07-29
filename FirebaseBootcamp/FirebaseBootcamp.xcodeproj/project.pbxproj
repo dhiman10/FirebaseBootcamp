@@ -7,32 +7,19 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		6A7FBEB62E38CB44009C189B /* FireBaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireBaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A7FBF8E2E38DCDE009C189B /* FirebaseBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		6A7FBEC82E38CB47009C189B /* Exceptions for "FireBaseProject" folder in "FireBaseProject" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 6A7FBEB52E38CB44009C189B /* FireBaseProject */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		6A7FBEB82E38CB44009C189B /* FireBaseProject */ = {
+		6A7FBF902E38DCDE009C189B /* FirebaseBootcamp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				6A7FBEC82E38CB47009C189B /* Exceptions for "FireBaseProject" folder in "FireBaseProject" target */,
-			);
-			path = FireBaseProject;
+			path = FirebaseBootcamp;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6A7FBEB32E38CB44009C189B /* Frameworks */ = {
+		6A7FBF8B2E38DCDE009C189B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,18 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6A7FBEAD2E38CB44009C189B = {
+		6A7FBF852E38DCDE009C189B = {
 			isa = PBXGroup;
 			children = (
-				6A7FBEB82E38CB44009C189B /* FireBaseProject */,
-				6A7FBEB72E38CB44009C189B /* Products */,
+				6A7FBF902E38DCDE009C189B /* FirebaseBootcamp */,
+				6A7FBF8F2E38DCDE009C189B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6A7FBEB72E38CB44009C189B /* Products */ = {
+		6A7FBF8F2E38DCDE009C189B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6A7FBEB62E38CB44009C189B /* FireBaseProject.app */,
+				6A7FBF8E2E38DCDE009C189B /* FirebaseBootcamp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,64 +48,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6A7FBEB52E38CB44009C189B /* FireBaseProject */ = {
+		6A7FBF8D2E38DCDE009C189B /* FirebaseBootcamp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6A7FBEC92E38CB47009C189B /* Build configuration list for PBXNativeTarget "FireBaseProject" */;
+			buildConfigurationList = 6A7FBF9C2E38DCE0009C189B /* Build configuration list for PBXNativeTarget "FirebaseBootcamp" */;
 			buildPhases = (
-				6A7FBEB22E38CB44009C189B /* Sources */,
-				6A7FBEB32E38CB44009C189B /* Frameworks */,
-				6A7FBEB42E38CB44009C189B /* Resources */,
+				6A7FBF8A2E38DCDE009C189B /* Sources */,
+				6A7FBF8B2E38DCDE009C189B /* Frameworks */,
+				6A7FBF8C2E38DCDE009C189B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				6A7FBEB82E38CB44009C189B /* FireBaseProject */,
+				6A7FBF902E38DCDE009C189B /* FirebaseBootcamp */,
 			);
-			name = FireBaseProject;
+			name = FirebaseBootcamp;
 			packageProductDependencies = (
 			);
-			productName = FireBaseProject;
-			productReference = 6A7FBEB62E38CB44009C189B /* FireBaseProject.app */;
+			productName = FirebaseBootcamp;
+			productReference = 6A7FBF8E2E38DCDE009C189B /* FirebaseBootcamp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6A7FBEAE2E38CB44009C189B /* Project object */ = {
+		6A7FBF862E38DCDE009C189B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					6A7FBEB52E38CB44009C189B = {
+					6A7FBF8D2E38DCDE009C189B = {
 						CreatedOnToolsVersion = 16.2;
 					};
 				};
 			};
-			buildConfigurationList = 6A7FBEB12E38CB44009C189B /* Build configuration list for PBXProject "FireBaseProject" */;
+			buildConfigurationList = 6A7FBF892E38DCDE009C189B /* Build configuration list for PBXProject "FirebaseBootcamp" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 6A7FBEAD2E38CB44009C189B;
+			mainGroup = 6A7FBF852E38DCDE009C189B;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 6A7FBEB72E38CB44009C189B /* Products */;
+			productRefGroup = 6A7FBF8F2E38DCDE009C189B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6A7FBEB52E38CB44009C189B /* FireBaseProject */,
+				6A7FBF8D2E38DCDE009C189B /* FirebaseBootcamp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6A7FBEB42E38CB44009C189B /* Resources */ = {
+		6A7FBF8C2E38DCDE009C189B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -128,7 +115,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6A7FBEB22E38CB44009C189B /* Sources */ = {
+		6A7FBF8A2E38DCDE009C189B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -138,63 +125,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		6A7FBECA2E38CB47009C189B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = PN63ZGUMDK;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FireBaseProject/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Dhiman.simple.FireBaseProject;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		6A7FBECB2E38CB47009C189B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = PN63ZGUMDK;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FireBaseProject/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Dhiman.simple.FireBaseProject;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		6A7FBECC2E38CB47009C189B /* Debug */ = {
+		6A7FBF9A2E38DCE0009C189B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -257,7 +188,7 @@
 			};
 			name = Debug;
 		};
-		6A7FBECD2E38CB47009C189B /* Release */ = {
+		6A7FBF9B2E38DCE0009C189B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -313,28 +244,86 @@
 			};
 			name = Release;
 		};
+		6A7FBF9D2E38DCE0009C189B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FirebaseBootcamp/Preview Content\"";
+				DEVELOPMENT_TEAM = PN63ZGUMDK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dhiman.simple.FirebaseBootcamp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A7FBF9E2E38DCE0009C189B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FirebaseBootcamp/Preview Content\"";
+				DEVELOPMENT_TEAM = PN63ZGUMDK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dhiman.simple.FirebaseBootcamp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6A7FBEB12E38CB44009C189B /* Build configuration list for PBXProject "FireBaseProject" */ = {
+		6A7FBF892E38DCDE009C189B /* Build configuration list for PBXProject "FirebaseBootcamp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6A7FBECC2E38CB47009C189B /* Debug */,
-				6A7FBECD2E38CB47009C189B /* Release */,
+				6A7FBF9A2E38DCE0009C189B /* Debug */,
+				6A7FBF9B2E38DCE0009C189B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6A7FBEC92E38CB47009C189B /* Build configuration list for PBXNativeTarget "FireBaseProject" */ = {
+		6A7FBF9C2E38DCE0009C189B /* Build configuration list for PBXNativeTarget "FirebaseBootcamp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6A7FBECA2E38CB47009C189B /* Debug */,
-				6A7FBECB2E38CB47009C189B /* Release */,
+				6A7FBF9D2E38DCE0009C189B /* Debug */,
+				6A7FBF9E2E38DCE0009C189B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6A7FBEAE2E38CB44009C189B /* Project object */;
+	rootObject = 6A7FBF862E38DCDE009C189B /* Project object */;
 }
