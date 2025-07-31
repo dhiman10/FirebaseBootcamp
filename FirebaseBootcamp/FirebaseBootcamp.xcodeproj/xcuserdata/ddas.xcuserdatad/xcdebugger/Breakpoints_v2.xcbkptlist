@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "3A09E56C-841E-4C4A-8AAD-A9CAF7FE7C65"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "036A8B96-FB6F-4A23-BCCD-2BCB5CEDBCA2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FirebaseBootcamp/Core/Settings/SettingsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "updateEmail()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "036A8B96-FB6F-4A23-BCCD-2BCB5CEDBCA2 - 26cf79bbcc34ea7a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for FirebaseBootcamp.SettingsViewModel.updateEmail() async throws -&gt; ()"
+                  moduleName = "FirebaseBootcamp.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ddas/Documents/FirBaseNew/FirebaseBootcamp/FirebaseBootcamp/FirebaseBootcamp/Core/Settings/SettingsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42">
+               </Location>
+               <Location
+                  uuid = "036A8B96-FB6F-4A23-BCCD-2BCB5CEDBCA2 - 615f230a63d0d345"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for FirebaseBootcamp.SettingsViewModel.updateEmail() async throws -&gt; ()"
+                  moduleName = "FirebaseBootcamp.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ddas/Documents/FirBaseNew/FirebaseBootcamp/FirebaseBootcamp/FirebaseBootcamp/Core/Settings/SettingsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42">
+               </Location>
+               <Location
+                  uuid = "036A8B96-FB6F-4A23-BCCD-2BCB5CEDBCA2 - 969910a0bc3d267c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for FirebaseBootcamp.SettingsViewModel.updateEmail() async throws -&gt; ()"
+                  moduleName = "FirebaseBootcamp.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ddas/Documents/FirBaseNew/FirebaseBootcamp/FirebaseBootcamp/FirebaseBootcamp/Core/Settings/SettingsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42">
+               </Location>
+               <Location
+                  uuid = "036A8B96-FB6F-4A23-BCCD-2BCB5CEDBCA2 - 4e8c1f2ae43eb87f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for FirebaseBootcamp.SettingsViewModel.updateEmail() async throws -&gt; ()"
+                  moduleName = "FirebaseBootcamp.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ddas/Documents/FirBaseNew/FirebaseBootcamp/FirebaseBootcamp/FirebaseBootcamp/Core/Settings/SettingsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

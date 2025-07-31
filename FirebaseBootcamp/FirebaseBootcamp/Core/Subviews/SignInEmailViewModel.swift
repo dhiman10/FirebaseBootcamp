@@ -20,14 +20,7 @@ final class SignInEmailViewModel {
             return
         }
         
-        do {
-            let authDataResult = try await AuthenticationManager.shared.createUser(email: email, password: password)
-            print("Sucess")
-            print(authDataResult)
-        }catch {
-            print("Error: \(error)")
-        }
-        
+       try await AuthenticationManager.shared.createUser(email: email, password: password)
 
     }
     
@@ -36,6 +29,7 @@ final class SignInEmailViewModel {
             print("No email or password found.")
             return
         }
-        
+        try await AuthenticationManager.shared.signInUser(email: email, password: password)
+
     }
 }

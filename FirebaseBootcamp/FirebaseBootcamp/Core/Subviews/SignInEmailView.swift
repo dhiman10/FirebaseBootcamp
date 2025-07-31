@@ -9,7 +9,7 @@ import SwiftUI
 
 struct SignInEmailView: View {
     
-   // @Binding var showSignInView: Bool
+    @Binding var showSignInView: Bool
     @State private var viewModel = SignInEmailViewModel()
 
     var body: some View {
@@ -30,7 +30,7 @@ struct SignInEmailView: View {
                 Task {
                     do {
                         try await viewModel.signUp()
-                        //showSignInView = false
+                        showSignInView = false
                         return
                     }
                     catch {
@@ -39,7 +39,7 @@ struct SignInEmailView: View {
                     
                     do {
                         try await viewModel.signIn()
-                        //showSignInView = false
+                        showSignInView = false
                         return
                     }
                     catch {
@@ -70,6 +70,6 @@ struct SignInEmailView: View {
 
 #Preview {
     NavigationStack {
-        SignInEmailView()
+        SignInEmailView(showSignInView: .constant(false))
     }
 }
