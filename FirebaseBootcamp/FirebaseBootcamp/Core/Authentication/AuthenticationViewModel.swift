@@ -14,7 +14,9 @@ final class AuthenticationViewModel {
     func signInGoogle() async throws {
         let helper = SignInGoogleHelper()
         let tokens = try await helper.signIn()
-        try await AuthenticationManager.shared.signInWithGoogle(tokens: tokens)
+        let authDataResult = try await AuthenticationManager.shared.signInWithGoogle(tokens: tokens)
+        let user = DBUser(auth: authDataResult)
+        try await UserManager.shared.createNewUser(user: user)
     }
     
     func signInApple() async throws {
@@ -23,7 +25,8 @@ final class AuthenticationViewModel {
     }
     
     func signInAnonymous() async throws {
-        
-        
+        let authDataResult =   try await AuthenticationManager.shared.signInAnonymous()
+        let user = DBUser(auth: authDataResult)
+        try await UserManager.shared.createNewUser(user: user)
     }
 }

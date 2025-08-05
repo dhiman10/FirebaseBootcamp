@@ -24,12 +24,30 @@ struct SettingsView: View {
                     }
                 }
             }
+            Button(role: .destructive) {
+                Task {
+                    do {
+                        try await viewModel.deleteAccount()
+                        showSignInView = true
+                    } catch {
+                        print(error)
+                    }
+                }
+            } label: {
+                Text("Delete account")
+            }
+            
             if viewModel.authProviders.contains(.email) {
                 emailSection
+            }
+            
+            if viewModel.authUser?.isAnonymous == true {
+                anonymousSection
             }
         }
         .onAppear {
             viewModel.loadAuthProviders()
+            viewModel.loadAuthUser()
         }
         .navigationBarTitle("Settings")
     }
@@ -78,6 +96,35 @@ extension SettingsView {
             
         } header: {
             Text("Email functions")
+        }
+    }
+    
+    private var anonymousSection: some View {
+        Section {
+            Button("Link Google Account") {
+                Task {
+                    do {
+                        try await viewModel.linkGoogleAccount()
+                        print("GOOGLE LINKED!")
+                    } catch {
+                        print(error)
+                    }
+                }
+            }
+
+            
+            Button("Link Email Account") {
+                Task {
+                    do {
+                        try await viewModel.linkEmailAccount()
+                        print("EMAIL LINKED!")
+                    } catch {
+                        print(error)
+                    }
+                }
+            }
+        } header: {
+            Text("Create account")
         }
     }
 }

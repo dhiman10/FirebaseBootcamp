@@ -12,11 +12,16 @@ import Foundation
 final class SettingsViewModel {
     
     var authProviders: [AuthProviderOption] = []
-    
+    var authUser: AuthDataResultModel? = nil
+
     func loadAuthProviders() {
         if let providers = try? AuthenticationManager.shared.getProviders() {
             authProviders = providers
         }
+    }
+    
+    func loadAuthUser() {
+        self.authUser = try? AuthenticationManager.shared.getAuthenticatedUser()
     }
     
     func signOut() throws  {
@@ -45,5 +50,17 @@ final class SettingsViewModel {
     func updatePassword() async throws {
         let password = "Hello123!"
         try await AuthenticationManager.shared.updatePassword(password: password)
+    }
+    
+    func linkGoogleAccount() async throws {
+        let helper = SignInGoogleHelper()
+        let tokens = try await helper.signIn()
+        self.authUser =   try await AuthenticationManager.shared.linkGoogle(tokens: tokens)
+    }
+    
+    func linkEmailAccount() async throws {
+        let email = "anotherEmail@gmail.com"
+        let password = "Hello123!"
+        self.authUser =   try await AuthenticationManager.shared.linkEmail(email: email, password: password)
     }
 }

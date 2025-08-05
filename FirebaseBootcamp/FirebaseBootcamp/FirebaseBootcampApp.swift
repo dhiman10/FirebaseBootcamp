@@ -14,7 +14,11 @@ struct FirebaseBootcampApp: App {
 
     var body: some Scene {
         WindowGroup {
-            RootView()
+            //RootView()
+            NavigationStack {
+                ProductsView()
+
+            }
         }
     }
 }
