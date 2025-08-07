@@ -16,7 +16,8 @@ final class ProductsViewModel {
     private(set) var products: [Product] = []
     var selectedFilter: FilterOption? = nil
     var selectedCategory: CategoryOption? = nil
-    
+    private var lastDocument: DocumentSnapshot? = nil
+
     enum FilterOption: String, CaseIterable {
         case noFilter
         case priceHigh
@@ -45,22 +46,34 @@ final class ProductsViewModel {
         }
     }
     
-    func getAllProducts() async throws {
-        self.products = try await ProductsManager.shared.getAllProducts()
-    }
+//    func getAllProducts() async throws {
+//        self.products = try await ProductsManager.shared.getAllProducts()
+//    }
     
     func filterSelected(option: FilterOption) async throws {
         self.selectedFilter = option
-        try await self.getProducts()
+        self.products = []
+        self.lastDocument = nil
+        self.getProducts()
     }
     func catageorySelected(option: CategoryOption) async throws {
         self.selectedCategory = option
-        try await self.getProducts()
+        self.products = []
+        self.lastDocument = nil
+        self.getProducts()
     }
     
-    func getProducts() async throws {
-        self.products = try await ProductsManager.shared.getAllProducts(priceDescending: selectedFilter?.priceDescending, forCategory: selectedCategory?.rawValue)
-
+    func getProducts(){
+        
+        Task {
+            let (newProducts, lastDocument) = try await ProductsManager.shared.getAllProducts(priceDescending: selectedFilter?.priceDescending, forCategory: selectedCategory?.rawValue, count: 10, lastDocument: lastDocument)
+            self.products.append(contentsOf: newProducts)
+            
+            if let lastDocument {
+                self.lastDocument = lastDocument
+            }
+        }
+        
     }
     
     

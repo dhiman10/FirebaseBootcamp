@@ -14,6 +14,14 @@ struct ProductsView: View {
         List {
             ForEach(viewModel.products) { product in
                 ProductCellView(product: product)
+                
+                if product == viewModel.products.last {
+                    ProgressView()
+                        .onAppear {
+                            viewModel.getProducts()
+                        }
+                }
+
             }
         }
         .navigationTitle("Products")
@@ -47,7 +55,7 @@ struct ProductsView: View {
 
         })
         .task {
-            try? await viewModel.getAllProducts()
+            viewModel.getProducts()
         }
     }
     
